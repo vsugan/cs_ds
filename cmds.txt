@@ -1,0 +1,3 @@
+ git config --global user.name vsugan
+ git config --global user.email vsugan@gmail.com
+ git config --list
