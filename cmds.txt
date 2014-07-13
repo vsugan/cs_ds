@@ -1,3 +1,36 @@
- git config --global user.name vsugan
- git config --global user.email vsugan@gmail.com
- git config --list
+git config --global user.name vsugan
+git config --global user.email vsugan@gmail.com
+git config --list
+
+#connect to github
+#cd to the directory
+git init
+git remote add origin https://github.com/vsugan/cs_ds
+
+#add new files
+git add .
+
+#updates tracking for files that are added or deleted
+git add -u
+
+#both of the above
+git add -A
+
+#update local repo
+git commit -m "message"
+
+#commit to github
+git push
+
+#to create a branch
+git checkout -b branchname
+
+#to know which branch you are in
+git branch
+
+#to checkout the master branch again (overwrites the existing one)
+git checkout master
+
+#pull requests - unique feature of github
+git pull https://github.com/vsugan/cs_ds master
+
